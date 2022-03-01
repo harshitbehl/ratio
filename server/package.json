@@ -1,0 +1,11 @@
+{
+  "name": "ratio-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Harshit Behl",
+  "license": "ISC"
+}
