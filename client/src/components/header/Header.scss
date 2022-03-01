@@ -1,0 +1,21 @@
+@import "../../sass/variables";
+
+.header {
+  &__container {
+    display: flex;
+    padding: 2rem 0;
+  }
+
+  &__logo {
+    flex-grow: 1;
+  }
+
+  &__nav {
+    flex-grow: 3;
+  }
+
+  &__account {
+    flex-grow: 1;
+    display: flex;
+  }
+}

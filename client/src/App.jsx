@@ -1,10 +1,16 @@
 import React from "react";
+import Header from "./components/header/Header";
 
 import "./App.scss";
 
 function App() {
-  console.log(process.env);
-  return <div>Hello World!</div>;
+  return (
+    <div className="App">
+      <Header />
+      {/* showcase */}
+      {/* footer */}
+    </div>
+  );
 }
 
 export default App;
