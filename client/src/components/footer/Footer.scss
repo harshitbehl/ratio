@@ -1,0 +1,142 @@
+@import "../../sass/variables";
+
+.footer {
+  background-color: #151518;
+
+  // Footer Top
+
+  &__top {
+    display: flex;
+    padding: 4rem;
+  }
+
+  &__logo {
+    flex-basis: 30%;
+
+    &-text {
+      color: white;
+      font-size: 5rem;
+    }
+
+    p {
+      font-weight: 100;
+      color: white;
+      margin: 2rem 0;
+      letter-spacing: 0.1rem;
+      font-size: 1.5rem;
+    }
+
+    &-icons {
+      color: $primary-button;
+
+      .footer__logo-icon {
+        font-size: 3rem;
+        margin-right: 3rem;
+        cursor: pointer;
+
+        &:hover {
+          color: $primary-button-dark;
+        }
+      }
+    }
+  }
+
+  &__other-pages {
+    flex-basis: 20%;
+
+    h4 {
+      color: $primary-color;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    ul {
+      margin-top: 2rem;
+
+      li {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  &__quick-links {
+    flex-basis: 20%;
+
+    h4 {
+      color: $primary-color;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    ul {
+      margin-top: 2rem;
+
+      li {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  &__social-media {
+    flex-basis: 30%;
+
+    h4 {
+      color: $primary-color;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 2rem 0;
+      color: white;
+      font-weight: 100;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      line-height: 1.5;
+    }
+
+    &-icons {
+      color: $primary-button;
+
+      .footer__social-media-icon {
+        font-size: 2rem;
+        margin-right: 2rem;
+        cursor: pointer;
+
+        &:hover {
+          color: $primary-button-dark;
+        }
+      }
+    }
+  }
+
+  // Footer Bottom
+
+  &__bottom {
+    border-top: 0.1rem solid rgb(128, 128, 128, 0.2);
+    padding: 4rem 0;
+    text-align: end;
+
+    span {
+      color: grey;
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,10 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Avatar from "@mui/material/Avatar";
 
 import "./Header.scss";
 
 function Header() {
+  const createLink = (link, text) => {
+    return (
+      <li>
+        <a href={link}>{text}</a>
+      </li>
+    );
+  };
+
   return (
     <header className="header">
       <div className="header__container main-container">
@@ -12,7 +19,13 @@ function Header() {
           <span className="header__logo-text">ratio</span>
         </div>
         <nav className="header__nav">
-          <Navbar />
+          <ul>
+            {createLink("#", "Home")}
+            {createLink("#", "About Us")}
+            {createLink("#", "Service")}
+            {createLink("#", "Resources")}
+            {createLink("#", "Contact Us")}
+          </ul>
         </nav>
         <div className="header__account">
           <button>Create Account</button>

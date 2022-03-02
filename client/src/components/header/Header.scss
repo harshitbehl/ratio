@@ -26,6 +26,23 @@
 
   &__nav {
     flex-grow: 3;
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      height: 100%;
+      align-items: center;
+
+      li {
+        margin: 0 2rem;
+        color: white;
+        font-weight: 300;
+
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
   }
 
   &__account {
