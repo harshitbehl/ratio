@@ -60,6 +60,10 @@
         letter-spacing: 0.1rem;
         margin-bottom: 1rem;
 
+        a {
+          display: inline-block;
+        }
+
         a:hover {
           color: $primary-color;
         }
@@ -85,6 +89,10 @@
         font-weight: 100;
         letter-spacing: 0.1rem;
         margin-bottom: 1rem;
+
+        a {
+          display: inline-block;
+        }
 
         a:hover {
           color: $primary-color;

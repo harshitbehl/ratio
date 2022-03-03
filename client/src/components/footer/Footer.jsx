@@ -8,6 +8,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import "./Footer.scss";
 
@@ -15,7 +16,9 @@ function Footer() {
   const createLink = (link, text) => {
     return (
       <li>
-        <a href={link}>{text}</a>
+        <motion.a whileHover={{ scale: 1.2, x: 10 }} href={link}>
+          {text}
+        </motion.a>
       </li>
     );
   };
